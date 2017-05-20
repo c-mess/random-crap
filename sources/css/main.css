@@ -30,7 +30,7 @@ body {
     margin: 20vh 0 2vh 0;
     color: black;
     position: relative;
-    animation: come-out 1.2s forwards ease-in-out;
+    animation: come-out 0.8s forwards ease-in-out;
 }
 
 #main > .txt-content {
@@ -40,5 +40,5 @@ body {
     font-size: 2vh;
     margin: 0 auto;
     position: relative;
-    animation: come-out 1.8s forwards ease-in-out;
+    animation: come-out 1s forwards ease-in-out;
 }
