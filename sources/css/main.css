@@ -1,0 +1,44 @@
+/* Вот тут анимашки */
+
+@keyframes come-out {
+    0% { opacity: 0; left: -200vw }
+    100% { opacity: 1; left: 0 }
+}
+
+/* Вот здесь правила для конкретных элементов. */
+
+body {
+    margin: 0;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    overflow-x: hidden;
+    box-shadow: inset 0 0 30vh rgba(0,0,0,0.15);
+}
+
+#main {
+    height: 80vh;
+}
+
+#main > .header {
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 4vh;
+    font-weight: 200;
+    margin: 20vh 0 2vh 0;
+    color: black;
+    position: relative;
+    animation: come-out 1s forwards;
+}
+
+#main > .txt-content {
+    width: 20em;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    font-size: 2vh;
+    margin: 0 auto;
+    position: relative;
+    animation: come-out 1.5s forwards;
+}
